@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_woodarmor",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:oak_armor_chestplate",
+    "count": 1
+  }
+}

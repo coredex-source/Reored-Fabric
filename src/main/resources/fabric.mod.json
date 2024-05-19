@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "reoredfabric",
+  "version": "1.0.0",
+  "name": "Re-Ored-Fabric",
+  "authors": [
+    "Coredex"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "accessWidener": "reoredfabric.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.grawmpy.reored.fabric.ReoredfabricMod"
+    ],
+    "client": [
+      "net.grawmpy.reored.fabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "reoredfabric.mixins.json"
+  ]
+}

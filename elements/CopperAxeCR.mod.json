@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "reored_copper_axe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperAxe"
+    },
+    "name": "copper_axe_cr",
+    "namespace": "mod"
+  }
+}

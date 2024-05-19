@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_copper_hoe",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:copper_hoe",
+    "count": 1
+  }
+}

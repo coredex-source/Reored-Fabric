@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_copper_sword",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:copper_sword",
+    "count": 1
+  }
+}

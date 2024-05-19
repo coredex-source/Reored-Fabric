@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_copper_armor",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:copper_armor_chestplate",
+    "count": 1
+  }
+}

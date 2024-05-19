@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_copper_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:copper_pickaxe",
+    "count": 1
+  }
+}

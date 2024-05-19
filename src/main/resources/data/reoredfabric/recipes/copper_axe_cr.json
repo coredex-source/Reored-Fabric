@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reored_copper_axe",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "reoredfabric:copper_axe",
+    "count": 1
+  }
+}
