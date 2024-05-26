@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reoredfabric:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "reoredfabric:silver_nugget",
+    "count": 9
+  }
+}

@@ -15,6 +15,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 
+import net.grawmpy.reored.fabric.init.ReoredfabricModItems;
 import net.grawmpy.reored.fabric.init.ReoredfabricModBlocks;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -45,7 +46,7 @@ public class DeepslateSilverOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(ReoredfabricModItems.RAW_SILVER));
 	}
 
 	@Environment(EnvType.CLIENT)

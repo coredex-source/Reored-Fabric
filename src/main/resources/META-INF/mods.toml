@@ -1,22 +1,24 @@
 modLoader="javafml"
-loaderVersion="[43,)"
-license="Academic Free License v3.0"
+loaderVersion="[47,)"
+license="All Rights Reserved"
 
 [[mods]]
-modId="reored"
-version="1.0.0"
-displayName="Re-Ored"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+modId="reoredfabric"
+version="0.0.0.0.7"
+displayName="Re-Ored-Fabric"
 displayURL="https://mcreator.net"
-authors="Samarth, MCreator"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Coredex"
 
-[[dependencies.reored]]
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.reoredfabric]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
-
 
 
 

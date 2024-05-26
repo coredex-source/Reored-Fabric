@@ -24,9 +24,9 @@ public class ReoredfabricModTabs {
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_REORED_ARMORY,
-				FabricItemGroup.builder().title(Component.translatable("item_group." + ReoredfabricMod.MODID + ".reored_armory")).icon(() -> new ItemStack(ReoredfabricModItems.COPPER_SWORD)).build());
+				FabricItemGroup.builder().title(Component.translatable("item_group." + ReoredfabricMod.MODID + ".reored_armory")).icon(() -> new ItemStack(ReoredfabricModItems.SILVER_SWORD)).build());
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_REORED_TOOLS,
-				FabricItemGroup.builder().title(Component.translatable("item_group." + ReoredfabricMod.MODID + ".reored_tools")).icon(() -> new ItemStack(ReoredfabricModItems.COPPER_PICKAXE)).build());
+				FabricItemGroup.builder().title(Component.translatable("item_group." + ReoredfabricMod.MODID + ".reored_tools")).icon(() -> new ItemStack(ReoredfabricModItems.SIVER_PICKAXE)).build());
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_REORED_BLOCKS,
 				FabricItemGroup.builder().title(Component.translatable("item_group." + ReoredfabricMod.MODID + ".reored_blocks")).icon(() -> new ItemStack(ReoredfabricModBlocks.SILVER_ORE)).build());
 	}

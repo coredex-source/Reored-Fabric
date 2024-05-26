@@ -12,6 +12,14 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
+import net.grawmpy.reored.fabric.item.SiverPickaxeItem;
+import net.grawmpy.reored.fabric.item.SilverSwordItem;
+import net.grawmpy.reored.fabric.item.SilverShovelItem;
+import net.grawmpy.reored.fabric.item.SilverNuggetItem;
+import net.grawmpy.reored.fabric.item.SilverIngotItem;
+import net.grawmpy.reored.fabric.item.SilverHoeItem;
+import net.grawmpy.reored.fabric.item.SilverAxeItem;
+import net.grawmpy.reored.fabric.item.RawSilverItem;
 import net.grawmpy.reored.fabric.item.OakArmorItem;
 import net.grawmpy.reored.fabric.item.CopperSwordItem;
 import net.grawmpy.reored.fabric.item.CopperShovelItem;
@@ -39,6 +47,14 @@ public class ReoredfabricModItems {
 	public static Item COPPER_ARMOR_BOOTS;
 	public static Item SILVER_ORE;
 	public static Item DEEPSLATE_SILVER_ORE;
+	public static Item SILVER_SWORD;
+	public static Item RAW_SILVER;
+	public static Item SILVER_INGOT;
+	public static Item SILVER_NUGGET;
+	public static Item SIVER_PICKAXE;
+	public static Item SILVER_AXE;
+	public static Item SILVER_SHOVEL;
+	public static Item SILVER_HOE;
 
 	public static void load() {
 		OAK_ARMOR_HELMET = register("oak_armor_helmet", new OakArmorItem.Helmet());
@@ -58,6 +74,14 @@ public class ReoredfabricModItems {
 		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(SILVER_ORE));
 		DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore", new BlockItem(ReoredfabricModBlocks.DEEPSLATE_SILVER_ORE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(DEEPSLATE_SILVER_ORE));
+		SILVER_SWORD = register("silver_sword", new SilverSwordItem());
+		RAW_SILVER = register("raw_silver", new RawSilverItem());
+		SILVER_INGOT = register("silver_ingot", new SilverIngotItem());
+		SILVER_NUGGET = register("silver_nugget", new SilverNuggetItem());
+		SIVER_PICKAXE = register("siver_pickaxe", new SiverPickaxeItem());
+		SILVER_AXE = register("silver_axe", new SilverAxeItem());
+		SILVER_SHOVEL = register("silver_shovel", new SilverShovelItem());
+		SILVER_HOE = register("silver_hoe", new SilverHoeItem());
 	}
 
 	public static void clientLoad() {
