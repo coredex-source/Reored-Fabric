@@ -65,10 +65,10 @@
       "registry_name": "oak_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/oak_armor_chestplate.json",
           "src/main/java/net/grawmpy/reored/fabric/item/OakArmorItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/oak_armor_helmet.json",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_leggings.json",
+          "src/main/resources/assets/reoredfabric/models/item/oak_armor_helmet.json",
+          "src/main/resources/assets/reoredfabric/models/item/oak_armor_chestplate.json",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_boots.json"
         ]
       },
@@ -143,8 +143,8 @@
       "registry_name": "copper_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/CopperHoeItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/copper_hoe.json"
+          "src/main/resources/assets/reoredfabric/models/item/copper_hoe.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/CopperHoeItem.java"
         ]
       },
       "path": "~/Copper"
@@ -158,10 +158,10 @@
       "registry_name": "copper_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/copper_armor_leggings.json",
-          "src/main/resources/assets/reoredfabric/models/item/copper_armor_chestplate.json",
           "src/main/java/net/grawmpy/reored/fabric/item/CopperArmorItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_chestplate.json",
           "src/main/resources/assets/reoredfabric/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_leggings.json",
           "src/main/resources/assets/reoredfabric/models/item/copper_armor_boots.json"
         ]
       },
@@ -324,12 +324,12 @@
       "registry_name": "silver_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/reoredfabric/worldgen/configured_feature/silver_ore.json",
-          "src/main/resources/assets/reoredfabric/models/item/silver_ore.json",
-          "src/main/resources/data/reoredfabric/worldgen/placed_feature/silver_ore.json",
           "src/main/resources/assets/reoredfabric/models/block/silver_ore.json",
+          "src/main/resources/assets/reoredfabric/blockstates/silver_ore.json",
           "src/main/java/net/grawmpy/reored/fabric/block/SilverOreBlock.java",
-          "src/main/resources/assets/reoredfabric/blockstates/silver_ore.json"
+          "src/main/resources/data/reoredfabric/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/reoredfabric/models/item/silver_ore.json",
+          "src/main/resources/data/reoredfabric/worldgen/configured_feature/silver_ore.json"
         ]
       },
       "path": "~/Silver"
@@ -354,12 +354,12 @@
       "registry_name": "deepslate_silver_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/block/deepslate_silver_ore.json",
-          "src/main/resources/data/reoredfabric/worldgen/configured_feature/deepslate_silver_ore.json",
           "src/main/java/net/grawmpy/reored/fabric/block/DeepslateSilverOreBlock.java",
-          "src/main/resources/assets/reoredfabric/blockstates/deepslate_silver_ore.json",
+          "src/main/resources/assets/reoredfabric/models/item/deepslate_silver_ore.json",
           "src/main/resources/data/reoredfabric/worldgen/placed_feature/deepslate_silver_ore.json",
-          "src/main/resources/assets/reoredfabric/models/item/deepslate_silver_ore.json"
+          "src/main/resources/assets/reoredfabric/blockstates/deepslate_silver_ore.json",
+          "src/main/resources/assets/reoredfabric/models/block/deepslate_silver_ore.json",
+          "src/main/resources/data/reoredfabric/worldgen/configured_feature/deepslate_silver_ore.json"
         ]
       },
       "path": "~/Silver"
@@ -373,8 +373,8 @@
       "registry_name": "silver_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/silver_sword.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverSwordItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverSwordItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/silver_sword.json"
         ]
       },
       "path": "~/Silver"
@@ -388,8 +388,8 @@
       "registry_name": "raw_silver",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/RawSilverItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/raw_silver.json"
+          "src/main/resources/assets/reoredfabric/models/item/raw_silver.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/RawSilverItem.java"
         ]
       },
       "path": "~/Silver"
@@ -500,11 +500,11 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siver_pickaxe",
+      "registry_name": "silver_pickaxe",
       "metadata": {
         "files": [
           "src/main/java/net/grawmpy/reored/fabric/item/SiverPickaxeItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/siver_pickaxe.json"
+          "src/main/resources/assets/reoredfabric/models/item/silver_pickaxe.json"
         ]
       },
       "path": "~/Silver"
@@ -518,8 +518,8 @@
       "registry_name": "silver_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverAxeItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/silver_axe.json"
+          "src/main/resources/assets/reoredfabric/models/item/silver_axe.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverAxeItem.java"
         ]
       },
       "path": "~/Silver"
@@ -533,8 +533,8 @@
       "registry_name": "silver_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/silver_shovel.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverShovelItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverShovelItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/silver_shovel.json"
         ]
       },
       "path": "~/Silver"
@@ -664,6 +664,7 @@
       "item.reoredfabric.copper_armor_chestplate": "Copper Chestplate",
       "item.reored.copper_armor_helmet": "Copper Helmet",
       "item.reoredfabric.silver_shovel": "Silver Shovel",
+      "item.reoredfabric.silver_pickaxe": "Silver Pickaxe",
       "block.reored.silver_ore": "Silver Ore",
       "item.reoredforge.copper_armor_leggings": "Copper Leggings",
       "item.reoredfabric.silver_ingot": "Silver Ingot",
@@ -680,7 +681,6 @@
       "item_group.reored.reored_blocks": "Reored Blocks",
       "item.reoredforge.silver_axe": "Silver Axe",
       "item.reored.copper_armor_boots": "Copper Boots",
-      "item.reoredfabric.siver_pickaxe": "Siver Pickaxe",
       "item.reoredfabric.oak_armor_leggings": "Wooden Leggings",
       "item_group.reoredforge.reored_armory": "Reored Armory",
       "item.reoredfabric.copper_axe": "Copper Axe",

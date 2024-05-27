@@ -51,7 +51,7 @@ public class ReoredfabricModItems {
 	public static Item RAW_SILVER;
 	public static Item SILVER_INGOT;
 	public static Item SILVER_NUGGET;
-	public static Item SIVER_PICKAXE;
+	public static Item SILVER_PICKAXE;
 	public static Item SILVER_AXE;
 	public static Item SILVER_SHOVEL;
 	public static Item SILVER_HOE;
@@ -78,7 +78,7 @@ public class ReoredfabricModItems {
 		RAW_SILVER = register("raw_silver", new RawSilverItem());
 		SILVER_INGOT = register("silver_ingot", new SilverIngotItem());
 		SILVER_NUGGET = register("silver_nugget", new SilverNuggetItem());
-		SIVER_PICKAXE = register("siver_pickaxe", new SiverPickaxeItem());
+		SILVER_PICKAXE = register("silver_pickaxe", new SiverPickaxeItem());
 		SILVER_AXE = register("silver_axe", new SilverAxeItem());
 		SILVER_SHOVEL = register("silver_shovel", new SilverShovelItem());
 		SILVER_HOE = register("silver_hoe", new SilverHoeItem());
