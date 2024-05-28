@@ -22,6 +22,9 @@
     "damageVsEntity": 1.5,
     "usageCount": 250,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.COPPER_INGOT"

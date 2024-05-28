@@ -609,6 +609,80 @@
         ]
       },
       "path": "~/Silver"
+    },
+    {
+      "name": "SilverArmor",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reoredfabric/models/item/silver_armor_helmet.json",
+          "src/main/resources/assets/reoredfabric/models/item/silver_armor_leggings.json",
+          "src/main/resources/assets/reoredfabric/models/item/silver_armor_chestplate.json",
+          "src/main/resources/assets/reoredfabric/models/item/silver_armor_boots.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverArmorItem.java"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverHelmetCraftingRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_helmet_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/silver_helmet_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverChestplateCraftingRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_chestplate_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/silver_chestplate_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverLeggingsCraftingRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_leggings_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/silver_leggings_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBootsCraftingRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_boots_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/silver_boots_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
     }
   ],
   "variable_elements": [],
@@ -630,10 +704,13 @@
       "item.reoredforge.copper_armor_boots": "Copper Boots",
       "item.reoredforge.copper_hoe": "Copper Hoe",
       "itemGroup.tabreored_blocks": "Reored Blocks",
+      "item.reoredforge.silver_armor_boots": "Silver Boots",
       "item.reoredforge.silver_nugget": "Silver Nugget",
       "item_group.reored.reored_tools": "Reored Tools",
       "itemGroup.tabreored_armory": "Reored Armory",
       "item.reoredfabric.oak_armor_boots": "Wooden Boots",
+      "item.reoredfabric.silver_armor_chestplate": "Silver Chestplate",
+      "item.reoredfabric.silver_armor_boots": "Silver Boots",
       "item.reored.oak_armor_leggings": "Wooden Leggings",
       "item.reored.copper_armor_leggings": "Copper Leggings",
       "item.reoredfabric.copper_armor_helmet": "Copper Helmet",
@@ -644,9 +721,11 @@
       "item.reored.oak_armor_boots": "Wooden Boots",
       "item.reored.copper_armor_chestplate": "Copper Chestplate",
       "item.reoredforge.silver_hoe": "Silver Hoe",
+      "item.reoredforge.silver_armor_chestplate": "Silver Chestplate",
       "item.reoredfabric.oak_armor_helmet": "Wooden Helmet",
       "item_group.reoredfabric.reored_blocks": "Reored Ores",
       "item_group.reoredforge.reored_blocks": "Reored Ores",
+      "item.reoredforge.silver_armor_helmet": "Silver Helmet",
       "item.reored.copper_hoe": "Copper Hoe",
       "item.reoredfabric.copper_armor_boots": "Copper Boots",
       "item_group.reored.reored_armory": "Reored Armory",
@@ -654,7 +733,6 @@
       "item.reoredforge.oak_armor_boots": "Wooden Boots",
       "item.reoredfabric.copper_pickaxe": "Copper Pickaxe",
       "item.reoredforge.copper_axe": "Copper Axe",
-      "item.reoredforge.siver_pickaxe": "Siver Pickaxe",
       "item.reored.copper_pickaxe": "Copper Pickaxe",
       "item.reoredforge.copper_pickaxe": "Copper Pickaxe",
       "item_group.reoredfabric.reored_tools": "Reored Tools",
@@ -672,8 +750,10 @@
       "item.reored.copper_shovel": "Copper Shovel",
       "item.reoredfabric.oak_armor_chestplate": "Wooden Chestplate",
       "item.reoredforge.copper_sword": "Copper Sword",
+      "item.reoredfabric.silver_armor_helmet": "Silver Helmet",
       "item_group.reoredforge.reored_tools": "Reored Tools",
       "item_group.reoredfabric.reored_armory": "Reored Armory",
+      "item.reoredforge.silver_pickaxe": "Silver Pickaxe",
       "item.reoredforge.copper_shovel": "Copper Shovel",
       "item.reoredfabric.copper_sword": "Copper Sword",
       "block.reored.deepslate_silver_ore": "Deepslate Silver Ore",
@@ -683,12 +763,14 @@
       "item.reored.copper_armor_boots": "Copper Boots",
       "item.reoredfabric.oak_armor_leggings": "Wooden Leggings",
       "item_group.reoredforge.reored_armory": "Reored Armory",
+      "item.reoredforge.silver_armor_leggings": "Silver Leggings",
       "item.reoredfabric.copper_axe": "Copper Axe",
       "item.reoredforge.silver_ingot": "Silver Ingot",
       "block.reoredfabric.silver_ore": "Silver Ore",
       "item.reoredfabric.silver_nugget": "Silver Nugget",
       "block.reoredforge.silver_ore": "Silver Ore",
-      "item.reoredfabric.silver_hoe": "Silver Hoe"
+      "item.reoredfabric.silver_hoe": "Silver Hoe",
+      "item.reoredfabric.silver_armor_leggings": "Silver Leggings"
     }
   },
   "foldersRoot": {
@@ -711,7 +793,7 @@
   "workspaceSettings": {
     "modid": "reoredfabric",
     "modName": "Re-Ored-Fabric",
-    "version": "0.0.0.0.7",
+    "version": "0.0.0.0.8",
     "author": "Coredex",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",

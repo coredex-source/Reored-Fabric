@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "copper_helmet",
+    "textureHelmet": "silver_helmet",
     "enableBody": true,
-    "textureBody": "copper_chestplate",
+    "textureBody": "silver_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "copper_leggings",
+    "textureLeggings": "silver_leggings",
     "enableBoots": true,
-    "textureBoots": "copper_boots",
+    "textureBoots": "silver_boots",
     "creativeTab": {
       "value": "CUSTOM:ReoredArmory"
     },
-    "armorTextureFile": "copper_",
-    "helmetName": "Copper Helmet",
-    "bodyName": "Copper Chestplate",
-    "leggingsName": "Copper Leggings",
-    "bootsName": "Copper Boots",
+    "armorTextureFile": "silver_",
+    "helmetName": "Silver Helmet",
+    "bodyName": "Silver Chestplate",
+    "leggingsName": "Silver Leggings",
+    "bootsName": "Silver Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -59,31 +59,31 @@
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "helmetPiglinNeutral": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "bodyPiglinNeutral": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "leggingsPiglinNeutral": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "bootsPiglinNeutral": {
-      "fixedValue": false
+      "fixedValue": true
     },
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 4,
+    "maxDamage": 24,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 14,
-    "toughness": 0.0,
+    "enchantability": 27,
+    "toughness": 1.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_iron"
+      "value": "item.armor.equip_diamond"
     },
     "repairItems": [
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "CUSTOM:SilverIngot"
       }
     ]
   }

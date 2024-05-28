@@ -19,6 +19,7 @@ import net.grawmpy.reored.fabric.item.SilverNuggetItem;
 import net.grawmpy.reored.fabric.item.SilverIngotItem;
 import net.grawmpy.reored.fabric.item.SilverHoeItem;
 import net.grawmpy.reored.fabric.item.SilverAxeItem;
+import net.grawmpy.reored.fabric.item.SilverArmorItem;
 import net.grawmpy.reored.fabric.item.RawSilverItem;
 import net.grawmpy.reored.fabric.item.OakArmorItem;
 import net.grawmpy.reored.fabric.item.CopperSwordItem;
@@ -55,6 +56,10 @@ public class ReoredfabricModItems {
 	public static Item SILVER_AXE;
 	public static Item SILVER_SHOVEL;
 	public static Item SILVER_HOE;
+	public static Item SILVER_ARMOR_HELMET;
+	public static Item SILVER_ARMOR_CHESTPLATE;
+	public static Item SILVER_ARMOR_LEGGINGS;
+	public static Item SILVER_ARMOR_BOOTS;
 
 	public static void load() {
 		OAK_ARMOR_HELMET = register("oak_armor_helmet", new OakArmorItem.Helmet());
@@ -82,6 +87,10 @@ public class ReoredfabricModItems {
 		SILVER_AXE = register("silver_axe", new SilverAxeItem());
 		SILVER_SHOVEL = register("silver_shovel", new SilverShovelItem());
 		SILVER_HOE = register("silver_hoe", new SilverHoeItem());
+		SILVER_ARMOR_HELMET = register("silver_armor_helmet", new SilverArmorItem.Helmet());
+		SILVER_ARMOR_CHESTPLATE = register("silver_armor_chestplate", new SilverArmorItem.Chestplate());
+		SILVER_ARMOR_LEGGINGS = register("silver_armor_leggings", new SilverArmorItem.Leggings());
+		SILVER_ARMOR_BOOTS = register("silver_armor_boots", new SilverArmorItem.Boots());
 	}
 
 	public static void clientLoad() {
