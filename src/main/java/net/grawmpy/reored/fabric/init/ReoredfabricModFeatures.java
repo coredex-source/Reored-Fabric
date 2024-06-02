@@ -16,6 +16,8 @@ import net.minecraft.core.Registry;
 
 import net.grawmpy.reored.fabric.block.SilverOreBlock;
 import net.grawmpy.reored.fabric.block.DeepslateSilverOreBlock;
+import net.grawmpy.reored.fabric.block.DeepslateDeepIronOreBlock;
+import net.grawmpy.reored.fabric.block.DeepIronOreBlock;
 import net.grawmpy.reored.fabric.ReoredfabricMod;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
@@ -27,6 +29,8 @@ public class ReoredfabricModFeatures {
 	public static void load() {
 		register("silver_ore", new OreFeature(OreConfiguration.CODEC), SilverOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("deepslate_silver_ore", new OreFeature(OreConfiguration.CODEC), DeepslateSilverOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("deep_iron_ore", new OreFeature(OreConfiguration.CODEC), DeepIronOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("deepslate_deep_iron_ore", new OreFeature(OreConfiguration.CODEC), DeepslateDeepIronOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	public static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

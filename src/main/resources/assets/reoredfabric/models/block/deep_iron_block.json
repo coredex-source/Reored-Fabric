@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reoredfabric:block/deep_iron_block",
+    "particle": "reoredfabric:block/deep_iron_block"
+  },
+  "render_type": "solid"
+}

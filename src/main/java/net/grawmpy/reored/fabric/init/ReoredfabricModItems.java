@@ -21,7 +21,10 @@ import net.grawmpy.reored.fabric.item.SilverHoeItem;
 import net.grawmpy.reored.fabric.item.SilverAxeItem;
 import net.grawmpy.reored.fabric.item.SilverArmorItem;
 import net.grawmpy.reored.fabric.item.RawSilverItem;
+import net.grawmpy.reored.fabric.item.RawDeepIronItem;
 import net.grawmpy.reored.fabric.item.OakArmorItem;
+import net.grawmpy.reored.fabric.item.DeepIronNuggetItem;
+import net.grawmpy.reored.fabric.item.DeepIronIngotItem;
 import net.grawmpy.reored.fabric.item.CopperSwordItem;
 import net.grawmpy.reored.fabric.item.CopperShovelItem;
 import net.grawmpy.reored.fabric.item.CopperPickaxeItem;
@@ -60,6 +63,12 @@ public class ReoredfabricModItems {
 	public static Item SILVER_ARMOR_CHESTPLATE;
 	public static Item SILVER_ARMOR_LEGGINGS;
 	public static Item SILVER_ARMOR_BOOTS;
+	public static Item DEEP_IRON_ORE;
+	public static Item DEEPSLATE_DEEP_IRON_ORE;
+	public static Item RAW_DEEP_IRON;
+	public static Item DEEP_IRON_INGOT;
+	public static Item DEEP_IRON_NUGGET;
+	public static Item DEEP_IRON_BLOCK;
 
 	public static void load() {
 		OAK_ARMOR_HELMET = register("oak_armor_helmet", new OakArmorItem.Helmet());
@@ -91,6 +100,15 @@ public class ReoredfabricModItems {
 		SILVER_ARMOR_CHESTPLATE = register("silver_armor_chestplate", new SilverArmorItem.Chestplate());
 		SILVER_ARMOR_LEGGINGS = register("silver_armor_leggings", new SilverArmorItem.Leggings());
 		SILVER_ARMOR_BOOTS = register("silver_armor_boots", new SilverArmorItem.Boots());
+		DEEP_IRON_ORE = register("deep_iron_ore", new BlockItem(ReoredfabricModBlocks.DEEP_IRON_ORE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(DEEP_IRON_ORE));
+		DEEPSLATE_DEEP_IRON_ORE = register("deepslate_deep_iron_ore", new BlockItem(ReoredfabricModBlocks.DEEPSLATE_DEEP_IRON_ORE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(DEEPSLATE_DEEP_IRON_ORE));
+		RAW_DEEP_IRON = register("raw_deep_iron", new RawDeepIronItem());
+		DEEP_IRON_INGOT = register("deep_iron_ingot", new DeepIronIngotItem());
+		DEEP_IRON_NUGGET = register("deep_iron_nugget", new DeepIronNuggetItem());
+		DEEP_IRON_BLOCK = register("deep_iron_block", new BlockItem(ReoredfabricModBlocks.DEEP_IRON_BLOCK, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(DEEP_IRON_BLOCK));
 	}
 
 	public static void clientLoad() {

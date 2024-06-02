@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "reoredfabric:deep_iron_block",
+    "reoredfabric:deepslate_deep_iron_ore",
+    "reoredfabric:deep_iron_ore",
     "reoredfabric:deepslate_silver_ore",
     "reoredfabric:silver_ore"
   ]
