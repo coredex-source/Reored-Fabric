@@ -783,6 +783,90 @@
         ]
       },
       "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronIngotSmelting",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_ingot_smelting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronIngotBlasting",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_ingot_blasting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronNuggetCraftingRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_nugget_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_nugget_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronNuggetToIngotCrafting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_nugget_to_ingot_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_nugget_to_ingot_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronBlockCrafting",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_block_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronBlockToIngot",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_block_to_ingot.json"
+        ]
+      },
+      "path": "~/Deep Iron"
     }
   ],
   "variable_elements": [],

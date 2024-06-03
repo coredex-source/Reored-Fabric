@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reoredfabric:deep_iron_block"
+    }
+  ],
+  "result": {
+    "item": "reoredfabric:deep_iron_ingot",
+    "count": 9
+  }
+}

@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RawDeepIron"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

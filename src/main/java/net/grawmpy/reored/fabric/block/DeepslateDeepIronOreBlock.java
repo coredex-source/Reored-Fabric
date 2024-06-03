@@ -12,6 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 
+import net.grawmpy.reored.fabric.init.ReoredfabricModItems;
 import net.grawmpy.reored.fabric.init.ReoredfabricModBlocks;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -42,7 +43,7 @@ public class DeepslateDeepIronOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(ReoredfabricModItems.RAW_DEEP_IRON));
 	}
 
 	@Environment(EnvType.CLIENT)
