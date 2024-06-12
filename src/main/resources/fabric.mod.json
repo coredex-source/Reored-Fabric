@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "reoredfabric",
-  "version": "0.0.0.0.9",
+  "version": "0.0.0.0.10",
   "name": "Re-Ored-Fabric",
   "authors": [
     "Coredex"
@@ -11,6 +11,7 @@
     "sources": ""
   },
   "license": "All Rights Reserved",
+  "icon": "assets/reoredfabric/icon.png",
   "accessWidener": "reoredfabric.accesswidener",
   "environment": "*",
   "entrypoints": {

@@ -23,8 +23,13 @@ import net.grawmpy.reored.fabric.item.SilverArmorItem;
 import net.grawmpy.reored.fabric.item.RawSilverItem;
 import net.grawmpy.reored.fabric.item.RawDeepIronItem;
 import net.grawmpy.reored.fabric.item.OakArmorItem;
+import net.grawmpy.reored.fabric.item.DeepIronSwordItem;
+import net.grawmpy.reored.fabric.item.DeepIronShovelItem;
+import net.grawmpy.reored.fabric.item.DeepIronPickaxeItem;
 import net.grawmpy.reored.fabric.item.DeepIronNuggetItem;
 import net.grawmpy.reored.fabric.item.DeepIronIngotItem;
+import net.grawmpy.reored.fabric.item.DeepIronHoeItem;
+import net.grawmpy.reored.fabric.item.DeepIronAxeItem;
 import net.grawmpy.reored.fabric.item.CopperSwordItem;
 import net.grawmpy.reored.fabric.item.CopperShovelItem;
 import net.grawmpy.reored.fabric.item.CopperPickaxeItem;
@@ -69,6 +74,11 @@ public class ReoredfabricModItems {
 	public static Item DEEP_IRON_INGOT;
 	public static Item DEEP_IRON_NUGGET;
 	public static Item DEEP_IRON_BLOCK;
+	public static Item DEEP_IRON_SWORD;
+	public static Item DEEP_IRON_PICKAXE;
+	public static Item DEEP_IRON_AXE;
+	public static Item DEEP_IRON_SHOVEL;
+	public static Item DEEP_IRON_HOE;
 
 	public static void load() {
 		OAK_ARMOR_HELMET = register("oak_armor_helmet", new OakArmorItem.Helmet());
@@ -109,6 +119,11 @@ public class ReoredfabricModItems {
 		DEEP_IRON_NUGGET = register("deep_iron_nugget", new DeepIronNuggetItem());
 		DEEP_IRON_BLOCK = register("deep_iron_block", new BlockItem(ReoredfabricModBlocks.DEEP_IRON_BLOCK, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(ReoredfabricModTabs.TAB_REORED_BLOCKS).register(content -> content.accept(DEEP_IRON_BLOCK));
+		DEEP_IRON_SWORD = register("deep_iron_sword", new DeepIronSwordItem());
+		DEEP_IRON_PICKAXE = register("deep_iron_pickaxe", new DeepIronPickaxeItem());
+		DEEP_IRON_AXE = register("deep_iron_axe", new DeepIronAxeItem());
+		DEEP_IRON_SHOVEL = register("deep_iron_shovel", new DeepIronShovelItem());
+		DEEP_IRON_HOE = register("deep_iron_hoe", new DeepIronHoeItem());
 	}
 
 	public static void clientLoad() {

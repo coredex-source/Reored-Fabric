@@ -867,6 +867,151 @@
         ]
       },
       "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronSword",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_sword.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronSwordItem.java"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronPickaxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_pickaxe.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronPickaxeItem.java"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronAxeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_axe.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronShovel",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronShovelItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_shovel.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_hoe.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronHoeItem.java"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronSwordCrafting",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_sword_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_sword_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronPickaxeCrafting",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_pickaxe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_pickaxe_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronAxeCrafting",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_axe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_axe_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronShovelCrafting",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_shovel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_shovel_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
+    },
+    {
+      "name": "DeepIronHoeCrafting",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_hoe_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/deep_iron_hoe_crafting.json"
+        ]
+      },
+      "path": "~/Deep Iron"
     }
   ],
   "variable_elements": [],
@@ -878,62 +1023,35 @@
       "item.reoredfabric.copper_armor_leggings": "Copper Leggings",
       "item.reored.copper_sword": "Copper Sword",
       "item.reoredforge.copper_armor_chestplate": "Copper Chestplate",
-      "item.reoredfabric.raw_silver": "Raw Silver",
-      "item.reoredforge.silver_sword": "Silver Sword",
-      "item.reoredfabric.copper_hoe": "Copper Hoe",
       "item.reoredforge.copper_armor_helmet": "Copper Helmet",
-      "item.reoredforge.raw_silver": "Raw Silver",
       "item.reoredfabric.copper_shovel": "Copper Shovel",
-      "item.reoredforge.oak_armor_helmet": "Wooden Helmet",
       "item.reoredforge.copper_armor_boots": "Copper Boots",
-      "item.reoredforge.copper_hoe": "Copper Hoe",
       "itemGroup.tabreored_blocks": "Reored Blocks",
-      "item.reoredforge.deep_iron_nugget": "Deep Iron Nugget",
       "item.reoredforge.silver_armor_boots": "Silver Boots",
-      "item.reoredforge.silver_nugget": "Silver Nugget",
+      "item.reoredfabric.deep_iron_pickaxe": "Deep Iron Pickaxe",
       "item_group.reored.reored_tools": "Reored Tools",
       "itemGroup.tabreored_armory": "Reored Armory",
       "item.reoredfabric.oak_armor_boots": "Wooden Boots",
       "item.reoredfabric.silver_armor_chestplate": "Silver Chestplate",
       "item.reoredfabric.silver_armor_boots": "Silver Boots",
-      "item.reored.oak_armor_leggings": "Wooden Leggings",
       "item.reored.copper_armor_leggings": "Copper Leggings",
       "block.reoredfabric.deepslate_deep_iron_ore": "Deepslate Deep Iron Ore",
-      "item.reoredfabric.copper_armor_helmet": "Copper Helmet",
-      "item.reoredfabric.deep_iron_nugget": "Deep Iron Nugget",
-      "item.reored.oak_armor_chestplate": "Wooden Chestplate",
       "item.reoredfabric.silver_sword": "Silver Sword",
-      "item.reoredfabric.silver_axe": "Silver Axe",
+      "item.reoredforge.deep_iron_axe": "Deep Iron Axe",
       "block.reoredfabric.deep_iron_block": "Deep Iron Block",
       "item.reoredfabric.raw_deep_iron": "Raw Deep Iron",
       "item.reoredforge.raw_deep_iron": "Raw Deep Iron",
-      "itemGroup.tabreored_tools": "Reored Tools",
-      "item.reored.oak_armor_boots": "Wooden Boots",
       "item.reored.copper_armor_chestplate": "Copper Chestplate",
-      "item.reoredforge.silver_hoe": "Silver Hoe",
       "item.reoredforge.silver_armor_chestplate": "Silver Chestplate",
-      "item.reoredfabric.oak_armor_helmet": "Wooden Helmet",
       "item_group.reoredfabric.reored_blocks": "Reored Ores",
-      "item_group.reoredforge.reored_blocks": "Reored Ores",
-      "item.reoredforge.silver_armor_helmet": "Silver Helmet",
       "item.reored.copper_hoe": "Copper Hoe",
       "item.reoredfabric.copper_armor_boots": "Copper Boots",
-      "item_group.reored.reored_armory": "Reored Armory",
-      "item.reoredforge.silver_shovel": "Silver Shovel",
       "item.reoredforge.oak_armor_boots": "Wooden Boots",
-      "item.reoredfabric.copper_pickaxe": "Copper Pickaxe",
       "item.reoredforge.copper_axe": "Copper Axe",
-      "item.reored.copper_pickaxe": "Copper Pickaxe",
       "item.reoredforge.copper_pickaxe": "Copper Pickaxe",
       "block.reoredforge.deepslate_deep_iron_ore": "Deepslate Deep Iron Ore",
-      "item_group.reoredfabric.reored_tools": "Reored Tools",
-      "item.reoredfabric.deep_iron_ingot": "Deep Iron Ingot",
-      "item.reored.copper_axe": "Copper Axe",
-      "item.reoredforge.oak_armor_leggings": "Wooden Leggings",
       "item.reored.oak_armor_helmet": "Wooden Helmet",
       "item.reoredfabric.copper_armor_chestplate": "Copper Chestplate",
-      "item.reored.copper_armor_helmet": "Copper Helmet",
-      "item.reoredfabric.silver_shovel": "Silver Shovel",
       "item.reoredfabric.silver_pickaxe": "Silver Pickaxe",
       "block.reored.silver_ore": "Silver Ore",
       "item.reoredforge.copper_armor_leggings": "Copper Leggings",
@@ -944,26 +1062,63 @@
       "item.reoredforge.copper_sword": "Copper Sword",
       "block.reoredfabric.deep_iron_ore": "Deep Iron Ore",
       "item.reoredfabric.silver_armor_helmet": "Silver Helmet",
-      "item_group.reoredforge.reored_tools": "Reored Tools",
-      "item_group.reoredfabric.reored_armory": "Reored Armory",
-      "item.reoredforge.silver_pickaxe": "Silver Pickaxe",
-      "item.reoredforge.deep_iron_ingot": "Deep Iron Ingot",
-      "item.reoredforge.copper_shovel": "Copper Shovel",
       "item.reoredfabric.copper_sword": "Copper Sword",
-      "block.reored.deepslate_silver_ore": "Deepslate Silver Ore",
       "item.reoredforge.oak_armor_chestplate": "Wooden Chestplate",
       "item_group.reored.reored_blocks": "Reored Blocks",
       "item.reoredforge.silver_axe": "Silver Axe",
-      "item.reored.copper_armor_boots": "Copper Boots",
-      "block.reoredforge.deep_iron_block": "Deep Iron Block",
       "block.reoredforge.deep_iron_ore": "Deep Iron Ore",
       "item.reoredfabric.oak_armor_leggings": "Wooden Leggings",
       "item_group.reoredforge.reored_armory": "Reored Armory",
       "item.reoredforge.silver_armor_leggings": "Silver Leggings",
-      "item.reoredfabric.copper_axe": "Copper Axe",
       "item.reoredforge.silver_ingot": "Silver Ingot",
       "block.reoredfabric.silver_ore": "Silver Ore",
       "item.reoredfabric.silver_nugget": "Silver Nugget",
+      "item.reoredforge.deep_iron_hoe": "Deep Iron Hoe",
+      "item.reoredforge.deep_iron_shovel": "Deep Iron Shovel",
+      "item.reoredfabric.raw_silver": "Raw Silver",
+      "item.reoredforge.silver_sword": "Silver Sword",
+      "item.reoredfabric.copper_hoe": "Copper Hoe",
+      "item.reoredforge.raw_silver": "Raw Silver",
+      "item.reoredforge.oak_armor_helmet": "Wooden Helmet",
+      "item.reoredforge.copper_hoe": "Copper Hoe",
+      "item.reoredforge.deep_iron_nugget": "Deep Iron Nugget",
+      "item.reoredfabric.deep_iron_sword": "Deep Iron Sword",
+      "item.reoredforge.silver_nugget": "Silver Nugget",
+      "item.reored.oak_armor_leggings": "Wooden Leggings",
+      "item.reoredfabric.copper_armor_helmet": "Copper Helmet",
+      "item.reoredfabric.deep_iron_nugget": "Deep Iron Nugget",
+      "item.reored.oak_armor_chestplate": "Wooden Chestplate",
+      "item.reoredfabric.silver_axe": "Silver Axe",
+      "itemGroup.tabreored_tools": "Reored Tools",
+      "item.reoredfabric.deep_iron_axe": "Deep Iron Axe",
+      "item.reored.oak_armor_boots": "Wooden Boots",
+      "item.reoredforge.silver_hoe": "Silver Hoe",
+      "item.reoredforge.deep_iron_sword": "Deep Iron Sword",
+      "item.reoredfabric.oak_armor_helmet": "Wooden Helmet",
+      "item_group.reoredforge.reored_blocks": "Reored Ores",
+      "item.reoredforge.silver_armor_helmet": "Silver Helmet",
+      "item_group.reored.reored_armory": "Reored Armory",
+      "item.reoredforge.silver_shovel": "Silver Shovel",
+      "item.reoredfabric.copper_pickaxe": "Copper Pickaxe",
+      "item.reored.copper_pickaxe": "Copper Pickaxe",
+      "item_group.reoredfabric.reored_tools": "Reored Tools",
+      "item.reoredfabric.deep_iron_ingot": "Deep Iron Ingot",
+      "item.reored.copper_axe": "Copper Axe",
+      "item.reoredforge.oak_armor_leggings": "Wooden Leggings",
+      "item.reored.copper_armor_helmet": "Copper Helmet",
+      "item.reoredfabric.silver_shovel": "Silver Shovel",
+      "item_group.reoredforge.reored_tools": "Reored Tools",
+      "item_group.reoredfabric.reored_armory": "Reored Armory",
+      "item.reoredforge.deep_iron_pickaxe": "Deep Iron Pickaxe",
+      "item.reoredforge.silver_pickaxe": "Silver Pickaxe",
+      "item.reoredforge.deep_iron_ingot": "Deep Iron Ingot",
+      "item.reoredforge.copper_shovel": "Copper Shovel",
+      "block.reored.deepslate_silver_ore": "Deepslate Silver Ore",
+      "item.reoredfabric.deep_iron_hoe": "Deep Iron Hoe",
+      "item.reored.copper_armor_boots": "Copper Boots",
+      "block.reoredforge.deep_iron_block": "Deep Iron Block",
+      "item.reoredfabric.deep_iron_shovel": "Deep Iron Shovel",
+      "item.reoredfabric.copper_axe": "Copper Axe",
       "block.reoredforge.silver_ore": "Silver Ore",
       "item.reoredfabric.silver_hoe": "Silver Hoe",
       "item.reoredfabric.silver_armor_leggings": "Silver Leggings"
@@ -993,11 +1148,12 @@
   "workspaceSettings": {
     "modid": "reoredfabric",
     "modName": "Re-Ored-Fabric",
-    "version": "0.0.0.0.9",
+    "version": "0.0.0.0.10",
     "author": "Coredex",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "73810221",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
