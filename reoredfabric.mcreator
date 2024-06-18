@@ -3,7 +3,6 @@
     {
       "name": "OakCap",
       "type": "recipe",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_cap",
@@ -17,7 +16,6 @@
     {
       "name": "OakChest",
       "type": "recipe",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_chest",
@@ -31,7 +29,6 @@
     {
       "name": "OakLegs",
       "type": "recipe",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_legs",
@@ -45,7 +42,6 @@
     {
       "name": "OakBoots",
       "type": "recipe",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_boots",
@@ -59,14 +55,13 @@
     {
       "name": "OakArmor",
       "type": "armor",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/OakArmorItem.java",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_leggings.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/OakArmorItem.java",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_helmet.json",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_chestplate.json",
           "src/main/resources/assets/reoredfabric/models/item/oak_armor_boots.json"
@@ -77,14 +72,13 @@
     {
       "name": "CopperPickaxe",
       "type": "tool",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/CopperPickaxeItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/copper_pickaxe.json"
+          "src/main/resources/assets/reoredfabric/models/item/copper_pickaxe.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/CopperPickaxeItem.java"
         ]
       },
       "path": "~/Copper"
@@ -92,7 +86,6 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword",
@@ -107,7 +100,6 @@
     {
       "name": "CopperAxe",
       "type": "tool",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe",
@@ -122,14 +114,13 @@
     {
       "name": "CopperShovel",
       "type": "tool",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/CopperShovelItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/copper_shovel.json"
+          "src/main/resources/assets/reoredfabric/models/item/copper_shovel.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/CopperShovelItem.java"
         ]
       },
       "path": "~/Copper"
@@ -137,7 +128,6 @@
     {
       "name": "CopperHoe",
       "type": "tool",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_hoe",
@@ -152,16 +142,15 @@
     {
       "name": "CopperArmor",
       "type": "armor",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/CopperArmorItem.java",
           "src/main/resources/assets/reoredfabric/models/item/copper_armor_chestplate.json",
-          "src/main/resources/assets/reoredfabric/models/item/copper_armor_helmet.json",
           "src/main/resources/assets/reoredfabric/models/item/copper_armor_leggings.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/CopperArmorItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_helmet.json",
           "src/main/resources/assets/reoredfabric/models/item/copper_armor_boots.json"
         ]
       },
@@ -170,7 +159,6 @@
     {
       "name": "CopperPickaxeCR",
       "type": "recipe",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pickaxe_cr",
@@ -184,7 +172,6 @@
     {
       "name": "CopperSwordCR",
       "type": "recipe",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword_cr",
@@ -198,7 +185,6 @@
     {
       "name": "CopperAxeCR",
       "type": "recipe",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe_cr",
@@ -212,7 +198,6 @@
     {
       "name": "CopperShovelCR",
       "type": "recipe",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_shovel_cr",
@@ -226,7 +211,6 @@
     {
       "name": "CopperHoeCR",
       "type": "recipe",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_hoe_cr",
@@ -240,7 +224,6 @@
     {
       "name": "CopperCapCR",
       "type": "recipe",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_cap_cr",
@@ -254,7 +237,6 @@
     {
       "name": "CopperChestCR",
       "type": "recipe",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_chest_cr",
@@ -268,7 +250,6 @@
     {
       "name": "CopperLegsCR",
       "type": "recipe",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_legs_cr",
@@ -282,7 +263,6 @@
     {
       "name": "CopperBootsCR",
       "type": "recipe",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_boots_cr",
@@ -296,7 +276,6 @@
     {
       "name": "ReoredArmory",
       "type": "tab",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reored_armory",
@@ -307,7 +286,6 @@
     {
       "name": "ReoredTools",
       "type": "tab",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reored_tools",
@@ -318,18 +296,17 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore",
       "metadata": {
         "files": [
           "src/main/resources/assets/reoredfabric/models/block/silver_ore.json",
-          "src/main/resources/assets/reoredfabric/blockstates/silver_ore.json",
           "src/main/java/net/grawmpy/reored/fabric/block/SilverOreBlock.java",
-          "src/main/resources/data/reoredfabric/worldgen/placed_feature/silver_ore.json",
           "src/main/resources/assets/reoredfabric/models/item/silver_ore.json",
-          "src/main/resources/data/reoredfabric/worldgen/configured_feature/silver_ore.json"
+          "src/main/resources/data/reoredfabric/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/assets/reoredfabric/blockstates/silver_ore.json",
+          "src/main/resources/data/reoredfabric/worldgen/placed_feature/silver_ore.json"
         ]
       },
       "path": "~/Silver"
@@ -337,7 +314,6 @@
     {
       "name": "ReoredBlocks",
       "type": "tab",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reored_blocks",
@@ -348,17 +324,16 @@
     {
       "name": "DeepslateSilverOre",
       "type": "block",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_silver_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/block/DeepslateSilverOreBlock.java",
-          "src/main/resources/assets/reoredfabric/models/item/deepslate_silver_ore.json",
-          "src/main/resources/data/reoredfabric/worldgen/placed_feature/deepslate_silver_ore.json",
           "src/main/resources/assets/reoredfabric/blockstates/deepslate_silver_ore.json",
+          "src/main/resources/data/reoredfabric/worldgen/placed_feature/deepslate_silver_ore.json",
+          "src/main/resources/assets/reoredfabric/models/item/deepslate_silver_ore.json",
           "src/main/resources/assets/reoredfabric/models/block/deepslate_silver_ore.json",
+          "src/main/java/net/grawmpy/reored/fabric/block/DeepslateSilverOreBlock.java",
           "src/main/resources/data/reoredfabric/worldgen/configured_feature/deepslate_silver_ore.json"
         ]
       },
@@ -367,7 +342,6 @@
     {
       "name": "SilverSword",
       "type": "tool",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword",
@@ -382,14 +356,13 @@
     {
       "name": "RawSilver",
       "type": "item",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_silver",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/raw_silver.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/RawSilverItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/RawSilverItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/raw_silver.json"
         ]
       },
       "path": "~/Silver"
@@ -397,7 +370,6 @@
     {
       "name": "SilverIngot",
       "type": "item",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot",
@@ -412,14 +384,13 @@
     {
       "name": "SilverNugget",
       "type": "item",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/silver_nugget.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverNuggetItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverNuggetItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/silver_nugget.json"
         ]
       },
       "path": "~/Silver"
@@ -427,7 +398,6 @@
     {
       "name": "SilverIngotSmelting",
       "type": "recipe",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_smelting",
@@ -441,7 +411,6 @@
     {
       "name": "SilverIngotBlasting",
       "type": "recipe",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_blasting",
@@ -455,7 +424,6 @@
     {
       "name": "SilverNuggetCrafting",
       "type": "recipe",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_nugget_crafting",
@@ -469,7 +437,6 @@
     {
       "name": "SilverIngotCrafting",
       "type": "recipe",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_crafting",
@@ -483,7 +450,6 @@
     {
       "name": "SilverSwordCrafting",
       "type": "recipe",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword_crafting",
@@ -497,7 +463,6 @@
     {
       "name": "SiverPickaxe",
       "type": "tool",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_pickaxe",
@@ -512,14 +477,13 @@
     {
       "name": "SilverAxe",
       "type": "tool",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/silver_axe.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverAxeItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverAxeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/silver_axe.json"
         ]
       },
       "path": "~/Silver"
@@ -527,14 +491,13 @@
     {
       "name": "SilverShovel",
       "type": "tool",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverShovelItem.java",
-          "src/main/resources/assets/reoredfabric/models/item/silver_shovel.json"
+          "src/main/resources/assets/reoredfabric/models/item/silver_shovel.json",
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverShovelItem.java"
         ]
       },
       "path": "~/Silver"
@@ -542,14 +505,13 @@
     {
       "name": "SilverHoe",
       "type": "tool",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/silver_hoe.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/SilverHoeItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/SilverHoeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/silver_hoe.json"
         ]
       },
       "path": "~/Silver"
@@ -557,7 +519,6 @@
     {
       "name": "SilverPickaxeCrafting",
       "type": "recipe",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_pickaxe_crafting",
@@ -571,7 +532,6 @@
     {
       "name": "SilverAxeCrafting",
       "type": "recipe",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_axe_crafting",
@@ -585,7 +545,6 @@
     {
       "name": "SilverShovelCrafting",
       "type": "recipe",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_shovel_crafting",
@@ -599,7 +558,6 @@
     {
       "name": "SilverHoeCrafting",
       "type": "recipe",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_hoe_crafting",
@@ -613,15 +571,14 @@
     {
       "name": "SilverArmor",
       "type": "armor",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor",
       "metadata": {
         "files": [
           "src/main/resources/assets/reoredfabric/models/item/silver_armor_helmet.json",
-          "src/main/resources/assets/reoredfabric/models/item/silver_armor_leggings.json",
           "src/main/resources/assets/reoredfabric/models/item/silver_armor_chestplate.json",
+          "src/main/resources/assets/reoredfabric/models/item/silver_armor_leggings.json",
           "src/main/resources/assets/reoredfabric/models/item/silver_armor_boots.json",
           "src/main/java/net/grawmpy/reored/fabric/item/SilverArmorItem.java"
         ]
@@ -631,7 +588,6 @@
     {
       "name": "SilverHelmetCraftingRecipe",
       "type": "recipe",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_helmet_crafting_recipe",
@@ -645,7 +601,6 @@
     {
       "name": "SilverChestplateCraftingRecipe",
       "type": "recipe",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_chestplate_crafting_recipe",
@@ -659,7 +614,6 @@
     {
       "name": "SilverLeggingsCraftingRecipe",
       "type": "recipe",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_leggings_crafting_recipe",
@@ -673,7 +627,6 @@
     {
       "name": "SilverBootsCraftingRecipe",
       "type": "recipe",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_boots_crafting_recipe",
@@ -687,18 +640,17 @@
     {
       "name": "DeepIronOre",
       "type": "block",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reoredfabric/models/block/deep_iron_ore.json",
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_ore.json",
           "src/main/java/net/grawmpy/reored/fabric/block/DeepIronOreBlock.java",
           "src/main/resources/data/reoredfabric/worldgen/placed_feature/deep_iron_ore.json",
           "src/main/resources/data/reoredfabric/worldgen/configured_feature/deep_iron_ore.json",
-          "src/main/resources/assets/reoredfabric/models/item/deep_iron_ore.json",
-          "src/main/resources/assets/reoredfabric/blockstates/deep_iron_ore.json",
-          "src/main/resources/assets/reoredfabric/models/block/deep_iron_ore.json"
+          "src/main/resources/assets/reoredfabric/blockstates/deep_iron_ore.json"
         ]
       },
       "path": "~/Deep Iron"
@@ -706,17 +658,16 @@
     {
       "name": "DeepslateDeepIronOre",
       "type": "block",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_deep_iron_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/blockstates/deepslate_deep_iron_ore.json",
           "src/main/resources/assets/reoredfabric/models/block/deepslate_deep_iron_ore.json",
-          "src/main/java/net/grawmpy/reored/fabric/block/DeepslateDeepIronOreBlock.java",
           "src/main/resources/data/reoredfabric/worldgen/configured_feature/deepslate_deep_iron_ore.json",
           "src/main/resources/assets/reoredfabric/models/item/deepslate_deep_iron_ore.json",
+          "src/main/resources/assets/reoredfabric/blockstates/deepslate_deep_iron_ore.json",
+          "src/main/java/net/grawmpy/reored/fabric/block/DeepslateDeepIronOreBlock.java",
           "src/main/resources/data/reoredfabric/worldgen/placed_feature/deepslate_deep_iron_ore.json"
         ]
       },
@@ -725,7 +676,6 @@
     {
       "name": "RawDeepIron",
       "type": "item",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_deep_iron",
@@ -740,7 +690,6 @@
     {
       "name": "DeepIronIngot",
       "type": "item",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_ingot",
@@ -755,14 +704,13 @@
     {
       "name": "DeepIronNugget",
       "type": "item",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/deep_iron_nugget.json",
-          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronNuggetItem.java"
+          "src/main/java/net/grawmpy/reored/fabric/item/DeepIronNuggetItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_nugget.json"
         ]
       },
       "path": "~/Deep Iron"
@@ -770,16 +718,15 @@
     {
       "name": "DeepIronBlock",
       "type": "block",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredfabric/models/item/deep_iron_block.json",
-          "src/main/resources/assets/reoredfabric/blockstates/deep_iron_block.json",
           "src/main/java/net/grawmpy/reored/fabric/block/DeepIronBlockBlock.java",
-          "src/main/resources/assets/reoredfabric/models/block/deep_iron_block.json"
+          "src/main/resources/assets/reoredfabric/models/block/deep_iron_block.json",
+          "src/main/resources/assets/reoredfabric/models/item/deep_iron_block.json",
+          "src/main/resources/assets/reoredfabric/blockstates/deep_iron_block.json"
         ]
       },
       "path": "~/Deep Iron"
@@ -787,7 +734,6 @@
     {
       "name": "DeepIronIngotSmelting",
       "type": "recipe",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_ingot_smelting",
@@ -801,7 +747,6 @@
     {
       "name": "DeepIronIngotBlasting",
       "type": "recipe",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_ingot_blasting",
@@ -815,7 +760,6 @@
     {
       "name": "DeepIronNuggetCraftingRecipe",
       "type": "recipe",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_nugget_crafting_recipe",
@@ -829,7 +773,6 @@
     {
       "name": "DeepIronNuggetToIngotCrafting",
       "type": "recipe",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_nugget_to_ingot_crafting",
@@ -843,7 +786,6 @@
     {
       "name": "DeepIronBlockCrafting",
       "type": "recipe",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_block_crafting",
@@ -857,7 +799,6 @@
     {
       "name": "DeepIronBlockToIngot",
       "type": "recipe",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_block_to_ingot",
@@ -871,7 +812,6 @@
     {
       "name": "DeepIronSword",
       "type": "tool",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_sword",
@@ -886,7 +826,6 @@
     {
       "name": "DeepIronPickaxe",
       "type": "tool",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_pickaxe",
@@ -901,7 +840,6 @@
     {
       "name": "DeepIronAxe",
       "type": "tool",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_axe",
@@ -916,7 +854,6 @@
     {
       "name": "DeepIronShovel",
       "type": "tool",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_shovel",
@@ -931,7 +868,6 @@
     {
       "name": "DeepIronHoe",
       "type": "tool",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_hoe",
@@ -946,7 +882,6 @@
     {
       "name": "DeepIronSwordCrafting",
       "type": "recipe",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_sword_crafting",
@@ -960,7 +895,6 @@
     {
       "name": "DeepIronPickaxeCrafting",
       "type": "recipe",
-      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_pickaxe_crafting",
@@ -974,7 +908,6 @@
     {
       "name": "DeepIronAxeCrafting",
       "type": "recipe",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_axe_crafting",
@@ -988,7 +921,6 @@
     {
       "name": "DeepIronShovelCrafting",
       "type": "recipe",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_shovel_crafting",
@@ -1002,7 +934,6 @@
     {
       "name": "DeepIronHoeCrafting",
       "type": "recipe",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_iron_hoe_crafting",
@@ -1017,6 +948,7 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.reoredfabric.deepslate_silver_ore": "Deepslate Silver Ore",
@@ -1034,10 +966,10 @@
       "item.reoredfabric.oak_armor_boots": "Wooden Boots",
       "item.reoredfabric.silver_armor_chestplate": "Silver Chestplate",
       "item.reoredfabric.silver_armor_boots": "Silver Boots",
-      "item.reored.copper_armor_leggings": "Copper Leggings",
       "block.reoredfabric.deepslate_deep_iron_ore": "Deepslate Deep Iron Ore",
-      "item.reoredfabric.silver_sword": "Silver Sword",
+      "item.reored.copper_armor_leggings": "Copper Leggings",
       "item.reoredforge.deep_iron_axe": "Deep Iron Axe",
+      "item.reoredfabric.silver_sword": "Silver Sword",
       "block.reoredfabric.deep_iron_block": "Deep Iron Block",
       "item.reoredfabric.raw_deep_iron": "Raw Deep Iron",
       "item.reoredforge.raw_deep_iron": "Raw Deep Iron",
@@ -1162,5 +1094,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.grawmpy.reored.fabric"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400224713
 }

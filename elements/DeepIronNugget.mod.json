@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 62,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -37,6 +37,7 @@
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },
